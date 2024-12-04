@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Show Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>TV Show Explorer</h1>
+    </header>
+    <main>
+      <div class="search">
+        <input type="text" id="inputSearchQuery" class="search-input" placeholder="Search for TV shows..." />
+        <button id="triggerSearchAction" class="search-button">Search</button>
+      </div>
+      <div id="renderedShowCards" class="cards-container">
+        <p class="desc-p">No shows found. Try a different search query.</p>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
